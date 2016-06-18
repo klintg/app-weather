@@ -1,3 +1,3 @@
 # app-weather
 
-A Weather Application using the Openweather API.
+A Weather Application using the Openweather API, React & Redux.
