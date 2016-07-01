@@ -16,6 +16,4 @@ gulp.task ('browserify', function() {
 //     .pipe(gulp.dest('dist/js'))
 // })
 
-gulp.task('default', ['browserify'], function() {
-  return gulp.watch('src/**/*.*', ['browserify','copy'])
-})
+gulp.task('default', ['browserify'])
