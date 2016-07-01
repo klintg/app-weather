@@ -5,10 +5,8 @@
   "main": "index.js",
   "repository": "",
   "scripts": {
-    "postinstall": "webpack",
+    "postinstall": "webpack --config ./webpack-prod.config.js --progress --colors",
     "start": "node server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
   },
   "author": "",
   "license": "ISC",
